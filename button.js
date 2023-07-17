@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
       const formData = qs.parse(body);
       const { username, password } = formData;
       // Check if username and password are correct
-      if (username === 'vijaya' && password === 'password') {
+      if (username === 'indhu' && password === 'password') {
         console.log('Welcome!');
         res.writeHead(200, { 'Content-Type': 'text/plain' });
         res.end('Welcome!');
